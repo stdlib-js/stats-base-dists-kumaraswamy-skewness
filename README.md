@@ -32,10 +32,14 @@ The [skewness][skewness] for a [Kumaraswamy's double bounded][kumaraswamy-distri
 
 <!-- <equation class="equation" label="eq:kumaraswamy_skewness" align="center" raw="\operatorname{skew}\left( X \right) = \frac{ m_3 - 3m_1\sigma^2 - m_1^3 }{ \left( \sigma^2 \right)^{3/2} }" alt="Skewness for a Kumaraswamy's double bounded distribution."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{skew}\left( X \right) = \frac{ m_3 - 3m_1\sigma^2 - m_1^3 }{ \left( \sigma^2 \right)^{3/2} }" data-equation="eq:kumaraswamy_skewness">
+```math
+\operatorname{skew}\left( X \right) = \frac{ m_3 - 3m_1\sigma^2 - m_1^3 }{ \left( \sigma^2 \right)^{3/2} }
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{skew}\left( X \right) = \frac{ m_3 - 3m_1\sigma^2 - m_1^3 }{ \left( \sigma^2 \right)^{3/2} }" data-equation="eq:kumaraswamy_skewness">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/kumaraswamy/skewness/docs/img/equation_kumaraswamy_skewness.svg" alt="Skewness for a Kumaraswamy's double bounded distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -43,10 +47,14 @@ where `σ^2` is the [variance][variance] and the raw moments of the distribution
 
 <!-- <equation class="equation" label="eq:kumaraswamy_raw_moments" align="center" raw="m_n = b \, B\left(1+\tfrac{n}{a}, b \right)" alt="Raw moments for a Kumaraswamy's double bounded distribution."> -->
 
-<div class="equation" align="center" data-raw-text="m_n = b \, B\left(1+\tfrac{n}{a}, b \right)" data-equation="eq:kumaraswamy_raw_moments">
+```math
+m_n = b \, B\left(1+\tfrac{n}{a}, b \right)
+```
+
+<!-- <div class="equation" align="center" data-raw-text="m_n = b \, B\left(1+\tfrac{n}{a}, b \right)" data-equation="eq:kumaraswamy_raw_moments">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@591cf9d5c3a0cd3c1ceec961e5c49d73a68374cb/lib/node_modules/@stdlib/stats/base/dists/kumaraswamy/skewness/docs/img/equation_kumaraswamy_raw_moments.svg" alt="Raw moments for a Kumaraswamy's double bounded distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -239,7 +247,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
