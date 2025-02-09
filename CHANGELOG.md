@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-18)
+## Unreleased (2025-02-09)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`529a62b`](https://github.com/stdlib-js/stdlib/commit/529a62b86d008b95bf0c832f71040addf404ac7e) - **feat:** add C implementation for `stats/base/dists/kumaraswamy/skewness` [(#4542)](https://github.com/stdlib-js/stdlib/pull/4542) _(by Dev Goel, Philipp Burckhardt, stdlib-bot)_
 
 </details>
